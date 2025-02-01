@@ -9,4 +9,6 @@ I have to say, I did not had any experience with Git Bash, as until now, I was r
 
 It was interesting see how to link a local file that is on a parent folder.
 
+Also learned how to properly link img situated on siblings folders. I had to go back with ../ and just then select the img folder.
+
 By the way this is the first time I bother to fill a README file, most of the time I don´t even include them, am I using it right?
