@@ -1,0 +1,93 @@
+*{
+    /* border: 1px solid black; */
+}
+body{
+    background: linear-gradient(
+        130deg,
+        rgb(65, 43, 12) 50%,
+        rgb(158, 102, 17)
+    );
+    box-sizing: border-box;
+    width: 80vw;
+    margin: 0 auto;
+}
+h1, h2, p{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: wheat;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-family: Garamond;
+}
+h2{
+    font-size: 40px;
+    color: wheat;
+}
+h3{
+color: wheat;
+font-size: 30px;
+margin-left: 20px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+li{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.index{
+    list-style-image: url(/img/eat.png);
+    padding: 10px;
+}
+.index:hover{
+    text-decoration: underline
+}
+img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+.button{
+    font-weight: bold;
+    background-color: wheat;
+    width: 40%;
+    display: block;
+    margin: 60px auto 60px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 11px;
+    color:rgb(82, 56, 18);
+    text-align: center;
+}
+.button:hover{
+    box-shadow: 0 0 10px 5px rgb(79, 56, 12);
+    border: 1px solid;
+    cursor: pointer;
+}
+div{
+    width: 60%;
+    display: flex;
+    margin: 0 auto 50px;
+}
+hr{
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+footer p, footer a{
+    font-size: 15px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
