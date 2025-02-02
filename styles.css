@@ -14,21 +14,21 @@ body{
 h1, h2, p{
     text-align: center;
 }
+h1, h2, h3{
+    color: wheat;
+}
 h1{
     font-size: 60px;
-    color: wheat;
     padding-top: 15px;
     text-decoration: underline;
     font-family: Garamond;
 }
 h2{
     font-size: 40px;
-    color: wheat;
 }
 h3{
-color: wheat;
 font-size: 30px;
-margin-left: 20px;
+margin: 70px 20px 10px;
 }
 p{
     font-size: 20px;
@@ -41,7 +41,7 @@ li{
     color: white;
 }
 .index{
-    list-style-image: url(/img/eat.png);
+    list-style-image: url(img/eat.png);
     padding: 10px;
 }
 .index:hover{
@@ -52,6 +52,7 @@ img{
     margin: 20px auto;
     border-radius: 10px;
     border: 2px solid white;
+    max-width: 80%;
 }
 a{
     text-decoration: none;
@@ -85,9 +86,23 @@ hr{
     border-radius: 50%;
     margin-bottom: 40px;
 }
+footer{
+    padding-bottom: 30px;
+}
 footer p, footer a{
     font-size: 15px;
 }
 footer a:hover{
     text-decoration: underline;
+}
+@media screen and (max-width: 950px){
+    li{
+        margin-left: 0;
+    }
+    .button{
+        width: 60%;
+    }
+    h3{
+        margin-left: 60px;
+    }
 }
